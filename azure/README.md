@@ -1,48 +1,47 @@
-# Terraform Create Kubernetes Cluster on Azure (AKS)
+# Terraform Crear un Clúster de Kubernetes en Azure (AKS)
 
-This terraform code will provision an AKS service on Azure like detailed below:
-* Node count is currently 3
-* Node size is currently Standard_D2_v2
-* Network plugin is currently kubenet
+Este código de terraform provisionará un servicio AKS en Azure como se detalla a continuación:
+* El número de nodos actualmente es 3
+* El tamaño de los nodos actualmente es Standard_D2_v2
+* El plugin de red actualmente es kubenet
 
-## Prerequisites
+## Requisitos previos
 
 * Terraform 1.0.0
-* Setting required variables such as:
+* Configuración de las variables requeridas como:
   - cluster_name
   - dns_prefix
   - resource_group_name
   - agent_count
   - admin_username
-* Setting variables in terraform.tfvars file
+* Configuración de variables en el archivo terraform.tfvars
   - aks_service_principal_app_id
   - aks_service_principal_client_secret
-* kubectl CLI package to test connection
+* Paquete CLI de kubectl para probar la conexión
 
+## Uso
 
-## Usage
-
-1. Initialize terraform first
+1. Inicializa terraform primero
   ```bash
   terraform init
-  ```
-1. After initialization, you can plan your terraform deployment.
-  ```bash
-  terraform plan
-  ```
-1. Apply your terraform configuration
-  ```bash
-    terraform apply
-  ```
-1. After some time (6-7 mins.) Terraform will create AKS. Get the kubeconfig with
-  ```bash
-  terraform output -raw kubeconfig > aks_kubeconfig
-  ```
-1. Export the kubeconfig with
-  ```bash
-  export KUBECONFIG=aks_kubeconfig
-  ```
-1. After getting the kubeconfig check the cluster status with
-  ```bash
-  kubectl get nodes
-  ```
+
+	1.	Después de la inicialización, puedes planificar tu despliegue de terraform.
+
+terraform plan
+
+	1.	Aplica tu configuración de terraform
+
+terraform apply
+
+	1.	Después de algún tiempo (6-7 minutos), Terraform creará el AKS. Obtén el kubeconfig con
+
+terraform output -raw kubeconfig > aks_kubeconfig
+
+	1.	Exporta el kubeconfig con
+
+export KUBECONFIG=aks_kubeconfig
+
+	1.	Después de obtener el kubeconfig, verifica el estado del clúster con
+
+kubectl get nodes
+
