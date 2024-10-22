@@ -1,4 +1,4 @@
-# Terraform Crear un Clúster de Kubernetes en Azure (AKS)
+# Ejercicio 1 Crear un Clúster de Kubernetes (AKS) en Azure con Terraform
 
 Este código de terraform provisionará un servicio AKS en Azure como se detalla a continuación:
 * El número de nodos actualmente es 3
@@ -17,7 +17,6 @@ Este código de terraform provisionará un servicio AKS en Azure como se detalla
 * Configuración de variables en el archivo terraform.tfvars
   - aks_service_principal_app_id
   - aks_service_principal_client_secret
-* Paquete CLI de kubectl para probar la conexión
 
 ## Uso
 
@@ -33,15 +32,4 @@ terraform plan
  ```bash
 terraform apply
  ```
-1.	Después de algún tiempo (6-7 minutos), Terraform creará el AKS. Obtén el kubeconfig con
- ```bash
-terraform output -raw kubeconfig > aks_kubeconfig
- ```
-1.	Exporta el kubeconfig con
- ```bash
-export KUBECONFIG=aks_kubeconfig
- ```
-1.	Después de obtener el kubeconfig, verifica el estado del clúster con
- ```bash
-kubectl get nodes
- ```
+
