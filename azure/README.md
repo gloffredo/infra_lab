@@ -22,26 +22,26 @@ Este código de terraform provisionará un servicio AKS en Azure como se detalla
 ## Uso
 
 1. Inicializa terraform primero
-  ```bash
-  terraform init
-
-	1.	Después de la inicialización, puedes planificar tu despliegue de terraform.
-
+ ```bash
+terraform init
+ ```
+1.	Después de la inicialización, puedes planificar tu despliegue de terraform.
+ ```bash
 terraform plan
-
-	1.	Aplica tu configuración de terraform
-
+ ```
+1.	Aplica tu configuración de terraform
+ ```bash
 terraform apply
-
-	1.	Después de algún tiempo (6-7 minutos), Terraform creará el AKS. Obtén el kubeconfig con
-
+ ```
+1.	Después de algún tiempo (6-7 minutos), Terraform creará el AKS. Obtén el kubeconfig con
+ ```bash
 terraform output -raw kubeconfig > aks_kubeconfig
-
-	1.	Exporta el kubeconfig con
-
+ ```
+1.	Exporta el kubeconfig con
+ ```bash
 export KUBECONFIG=aks_kubeconfig
-
-	1.	Después de obtener el kubeconfig, verifica el estado del clúster con
-
+ ```
+1.	Después de obtener el kubeconfig, verifica el estado del clúster con
+ ```bash
 kubectl get nodes
-
+ ```
