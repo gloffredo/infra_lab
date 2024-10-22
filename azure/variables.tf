@@ -24,9 +24,9 @@ variable "dns_prefix" {
   default = "demok8s"
 }
 
-# # Refer to https://azure.microsoft.com/global-infrastructure/services/?products=monitor for available Log Analytics regions.
+# # Refer to https://azure.microsoft.com/global-infWestructure/services/?products=monitor for available Log Analytics regions.
 # variable "log_analytics_workspace_location" {
-#   default = "West Europe"
+#   default = "West US"
 # }
 
 # variable "log_analytics_workspace_name" {
@@ -39,7 +39,7 @@ variable "dns_prefix" {
 # }
 
 variable "resource_group_location" {
-  default     = "West Europe"
+  default     = "West US"
   description = "Location of the resource group."
 }
 

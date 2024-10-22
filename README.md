@@ -3,23 +3,19 @@
 <hr>
 
 <p align="center">
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge" #vitrinedev/>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=ALWAYS%20IN BETA&color=RED&style=for-the-badge" #vitrinedev/>
 </p>
 
 ### Tópicos 
 
 - [Descrição do projeto](#descrição-do-projeto)
-
 - [Funcionalidades](#funcionalidades)
-
 - [Aplicação](#aplicação)
-
+  - [](#)
 - [Ferramentas utilizadas](#ferramentas-utilizadas)
-
+  - [](#-1)
 - [Acesso ao projeto](#acesso-ao-projeto)
-
 - [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
-
 - [Desenvolvedores](#desenvolvedores)
 
 ## Descrição do projeto 
