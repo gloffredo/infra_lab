@@ -16,7 +16,6 @@
   - [](#-1)
 - [Acesso ao projeto](#acesso-ao-projeto)
 - [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
-- [Desenvolvedores](#desenvolvedores)
 
 ## Descrição do projeto 
 
@@ -42,7 +41,6 @@ O sistema permitirá o monitoramento diário, contínuo e remoto do nível de gl
 
 <div align="center">
 
-![Android Emulator](https://user-images.githubusercontent.com/37356058/135944390-ec96d4ec-ee43-4db9-882f-89be66aad23a.gif)
 
   </div>
 
@@ -70,7 +68,3 @@ Após baixar o projeto, você pode abrir com o `Android Studio`. Para isso, na t
 
 O `Android Studio` deve executar algumas tasks do *Gradle* para configurar o projeto, aguarde até finalizar. Ao finalizar as tasks, você pode executar o App 🏆 
 
-## Desenvolvedores
-
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |  [<img src="https://avatars.githubusercontent.com/u/38091359?v=4" width=115><br><sub>Clóvis Ribeiro Júnior</sub>](https://github.com/crovim)  |
-| :---: | :---: 
