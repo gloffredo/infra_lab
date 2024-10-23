@@ -8,36 +8,23 @@
 
 ### Tópicos 
 
-- [Descrição do projeto](#descrição-do-projeto)
-- [Funcionalidades](#funcionalidades)
-- [Aplicação](#aplicação)
+- [Descripción](#descripción)
   - [](#)
 - [Ferramentas utilizadas](#ferramentas-utilizadas)
   - [](#-1)
 - [Acesso ao projeto](#acesso-ao-projeto)
 - [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
 
-## Descrição do projeto 
+## Descripción
 
 <p align="justify">
- Projeto em desenvolvimento para disciplina Instrumentação Biomédica II do curso de Engenharia Biomédica. O GlicoCare é um sistema de telemonitoramento domiciliar para a atenção especializada de pessoas acometidas por diabetes mellitus.
-
-O sistema permitirá o monitoramento diário, contínuo e remoto do nível de glicose no sangue (glicemia), possibilitando que familiares, cuidadores, profissionais da saúde ou o próprio paciente acompanhem o estado clínico do mesmo.
+¡Bienvenido a mi repositorio de proyectos y laboratorios de Kubernetes, DevOps, cloud y más! Aquí encontrarás ejemplos prácticos y experimentos relacionados con automatización, gestión de infraestructura, y mejores prácticas en la nube. Todos estos proyectos son una mezcla de lo que he aprendido y aplicado en el mundo real, así que si te interesa Kubernetes, CI/CD, o simplemente quieres profundizar en DevOps, estás en el lugar correcto. ¡Siéntete libre de explorar, contribuir y aprender junto conmigo en este viaje!
 
 
 </p>
 
-## Funcionalidades
 
-:heavy_check_mark: `Funcionalidade 1:` Realizar cadastro dos usuários, podendo ser paciente ou profissional de saúde.
 
-:heavy_check_mark: `Funcionalidade 2:` Armazenar dados do usuário, como glicemia, atividade física, alimentação, medicação, administração de insulina e peso no banco de dados na Cloud Firestore.
-
-:heavy_check_mark: `Funcionalidade 3:` Plotar gráfico com histórico dos níveis glicêmicos do paciente.
-
-:heavy_check_mark: `Funcionalidade 4:` Chat com entre o paciente e profissional da saúde.
-
-## Aplicação
 
 <div align="center">
 
